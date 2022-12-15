@@ -161,7 +161,7 @@ print(Eigrp(eigrp_input_list).process())
 print(Eigrp(eigrp_input_list).networks())
 
 
-isis_input_list = ["0020", "0000.0001", "level-1-2", [["ethernet0/0", "level-1-2"], ["ethernet0/1", "level-1"], ["ethernet0/2", "level-2-only"]]]
+isis_input_list = ["0020", "0000.0000.0001", "level-1-2", [["ethernet0/0", "level-1-2"], ["ethernet0/1", "level-1"], ["ethernet0/2", "level-2-only"]]]
 print(Isis(isis_input_list).process())
 print(Isis(isis_input_list).interfaces())
 
