@@ -58,7 +58,7 @@ class Eigrp():
 # A class to create configuration for ISIS.
 # The class require an isis_input_list formatted as [area_id, system_id, process_level, [[interface_active, interface_level], ...]].
 # The area_id need to be formatted as XXXX (eg "0012").
-# The system_id need to be formatted as XXXX.XXXX (eg "0000.0000.0001").
+# The system_id need to be formatted as XXXX.XXXX.XXXX (eg "0000.0000.0001").
 # The process_level need to be either "level-1" or "level-1-2" or "level-2-only".
 # The interface_active need to be any of the interfaces (eg "ethernet0/0").
 # The interface_level need to be either "level-1" or "level-1-2" or "level-2-only".
