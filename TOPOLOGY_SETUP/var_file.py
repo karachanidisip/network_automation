@@ -46,6 +46,3 @@ OSPF_LIST = []
 ISIS_AREAS_LIST = []
 ISIS_LEVELS_LIST = []
 ISIS_NETWORKS_LIST = []
-
-# List for BGP configuration.
-BGP_LIST = []
