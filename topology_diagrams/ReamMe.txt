@@ -1,0 +1,8 @@
+This a python script extracting LEVEL 2 (PHYSICAL CONNECTIVITY) and LEVEL 3 (LOGICAL CONNECTIVITY) diagrams from a topology.
+The script for LEVEL 2 diagram make use of CDP.
+The script for LEVEL 3 diagram make use of IP networks/subnetworks.
+The script output is twotwo xml files for drawio (one for LEVEL 2 and one for LEVEL 3). After importing your files to drawio you need just to arrange the placement of devices in order to be visual appealing.
+The scripts requires a directory named "Diagrams" in the working directory. This is the directory where the xml files are stored.
+
+The LEVEL 2 topology consist of 14 Routers connected via TRUNK to a BREAKOUT switch. Moreover the 14 Routers are connected to an AccessSwitch using their Management interfaces. Finally a PC (management workstation) is connected to the AccessSwitch.
+The LEVEL 3 topology configured over the abovementioned LEVEL 2 topology using DOT1Q encapsulation.
