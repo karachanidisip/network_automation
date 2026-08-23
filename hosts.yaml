@@ -1,0 +1,140 @@
+r1:
+  hostname: 10.0.0.1
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r2:
+  hostname: 10.0.0.2
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r3:
+  hostname: 10.0.0.3
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r4:
+  hostname: 10.0.0.4
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r5:
+  hostname: 10.0.0.5
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r6:
+  hostname: 10.0.0.6
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r7:
+  hostname: 10.0.0.7
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r8:
+  hostname: 10.0.0.8
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r9:
+  hostname: 10.0.0.9
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r10:
+  hostname: 10.0.0.10
+  groups:
+    - cisco_ios_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r11:
+  hostname: 10.0.0.11
+  groups:
+    - cisco_xr_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r12:
+  hostname: 10.0.0.12
+  groups:
+    - cisco_xr_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r13:
+  hostname: 10.0.0.13
+  groups:
+    - cisco_xr_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET
+r14:
+  hostname: 10.0.0.14
+  groups:
+    - cisco_xr_telnet
+  username: AUTO
+  password: PASS
+  connection_options:
+    netmiko:
+      extras:
+        secret: SECRET

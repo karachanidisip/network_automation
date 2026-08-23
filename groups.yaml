@@ -1,0 +1,4 @@
+cisco_ios_telnet:
+  platform: cisco_ios_telnet
+cisco_xr_telnet:
+  platform: cisco_xr_telnet
